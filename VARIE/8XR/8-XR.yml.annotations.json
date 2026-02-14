@@ -1,0 +1,75 @@
+{
+  "freeTextAnnotations": [],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "XR1",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -133,
+        "y": 161
+      }
+    },
+    {
+      "id": "XR2",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -133,
+        "y": 245
+      }
+    },
+    {
+      "id": "XR3",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -35,
+        "y": 161
+      }
+    },
+    {
+      "id": "XR4",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -35,
+        "y": 245
+      }
+    },
+    {
+      "id": "XR5",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 63,
+        "y": 161
+      }
+    },
+    {
+      "id": "XR6",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 63,
+        "y": 245
+      }
+    },
+    {
+      "id": "XR7",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 161,
+        "y": 161
+      }
+    },
+    {
+      "id": "XR8",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 161,
+        "y": 245
+      }
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}

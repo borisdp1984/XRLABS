@@ -1,0 +1,47 @@
+name: 8XR-1SW
+mgmt:
+  network: fixedips
+  ipv4-subnet: 172.28.1.0/24
+
+topology:
+  kinds:
+    cisco_xrd:
+      image: ios-xr/xrd-control-plane:7.11.2
+  nodes:
+    XR1:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.2
+    XR2:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.3
+    XR3:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.4
+    XR4:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.5
+    XR5:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.6
+    XR6:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.7
+    XR7:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.8
+    XR8:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.9
+      
+  links:
+    - endpoints: ["XR1:Gi0-0-0-0","XR3:Gi0-0-0-0"]
+    - endpoints: ["XR1:Gi0-0-0-1","XR2:Gi0-0-0-1"]
+    - endpoints: ["XR2:Gi0-0-0-0","XR4:Gi0-0-0-0"]
+    - endpoints: ["XR3:Gi0-0-0-1","XR4:Gi0-0-0-1"]
+    - endpoints: ["XR3:Gi0-0-0-2","XR5:Gi0-0-0-2"]
+    - endpoints: ["XR4:Gi0-0-0-2","XR6:Gi0-0-0-2"]   
+    - endpoints: ["XR5:Gi0-0-0-0","XR7:Gi0-0-0-0"]
+    - endpoints: ["XR5:Gi0-0-0-1","XR6:Gi0-0-0-1"]
+    - endpoints: ["XR6:Gi0-0-0-0","XR8:Gi0-0-0-0"]
+    - endpoints: ["XR7:Gi0-0-0-1","XR8:Gi0-0-0-1"]
+    
