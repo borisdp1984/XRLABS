@@ -26,47 +26,47 @@ topology:
     XR6:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.7
-      startup-delay: 300
+      startup-delay: 600
     XR7:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.8
-      startup-delay: 300
+      startup-delay: 600
     XR8:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.9
-      startup-delay: 300
+      startup-delay: 600
     XR9:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.10
-      startup-delay: 300
+      startup-delay: 600
     XR10:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.11
-      startup-delay: 300
+      startup-delay: 600
     XR11:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.12
-      startup-delay: 600
+      startup-delay: 1200
     XR12:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.13
-      startup-delay: 600
+      startup-delay: 1200
     XR13:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.14
-      startup-delay: 600
+      startup-delay: 1200
     XR14:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.15
-      startup-delay: 600
+      startup-delay: 1200
     XR15:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.16
-      startup-delay: 600
+      startup-delay: 1200
     XR16:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.17
-      startup-delay: 600
+      startup-delay: 1200
       
   links:
     - endpoints: ["XR1:Gi0-0-0-0","XR3:Gi0-0-0-0"]
@@ -81,10 +81,8 @@ topology:
     - endpoints: ["XR7:Gi0-0-0-0","XR3:Gi0-0-0-4"]
     - endpoints: ["XR7:Gi0-0-0-1","XR5:Gi0-0-0-4"]
     - endpoints: ["XR5:Gi0-0-0-1","XR6:Gi0-0-0-1"]
-#	
     - endpoints: ["XR5:Gi0-0-0-0","XR8:Gi0-0-0-0"]
     - endpoints: ["XR6:Gi0-0-0-0","XR9:Gi0-0-0-0"]
-#
     - endpoints: ["XR12:Gi0-0-0-0","XR10:Gi0-0-0-0"]
     - endpoints: ["XR12:Gi0-0-0-1","XR11:Gi0-0-0-1"]
     - endpoints: ["XR13:Gi0-0-0-0","XR11:Gi0-0-0-0"]
