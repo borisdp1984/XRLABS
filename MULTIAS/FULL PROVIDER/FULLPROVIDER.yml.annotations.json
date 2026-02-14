@@ -1,0 +1,139 @@
+{
+  "freeTextAnnotations": [],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "XR1",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -217,
+        "y": 63
+      }
+    },
+    {
+      "id": "XR2",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -217,
+        "y": 133
+      }
+    },
+    {
+      "id": "XR3",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -133,
+        "y": 63
+      }
+    },
+    {
+      "id": "XR4",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -133,
+        "y": 133
+      }
+    },
+    {
+      "id": "XR5",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -21,
+        "y": 63
+      }
+    },
+    {
+      "id": "XR6",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -21,
+        "y": 133
+      }
+    },
+    {
+      "id": "XR7",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -77,
+        "y": 21
+      }
+    },
+    {
+      "id": "XR8",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 63,
+        "y": 63
+      }
+    },
+    {
+      "id": "XR9",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 63,
+        "y": 133
+      }
+    },
+    {
+      "id": "XR10",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 175,
+        "y": 63
+      }
+    },
+    {
+      "id": "XR11",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 175,
+        "y": 133
+      }
+    },
+    {
+      "id": "XR12",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 259,
+        "y": 133
+      }
+    },
+    {
+      "id": "XR13",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 259,
+        "y": 63
+      }
+    },
+    {
+      "id": "XR14",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": 119,
+        "y": 21
+      }
+    },
+    {
+      "id": "XR15",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -413,
+        "y": 7
+      }
+    },
+    {
+      "id": "XR16",
+      "interfacePattern": "Gi0-0-0-{n}",
+      "position": {
+        "x": -413,
+        "y": -21
+      }
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}
