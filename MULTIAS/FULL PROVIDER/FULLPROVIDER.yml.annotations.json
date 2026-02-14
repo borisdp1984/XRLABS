@@ -1,6 +1,24 @@
 {
   "freeTextAnnotations": [],
-  "freeShapeAnnotations": [],
+  "freeShapeAnnotations": [
+    {
+      "id": "freeShape_1771102728046_b5b614dd",
+      "shapeType": "rectangle",
+      "position": {
+        "x": 0,
+        "y": 165
+      },
+      "fillColor": "#ffffff",
+      "fillOpacity": 0,
+      "borderColor": "#646464",
+      "borderWidth": 2,
+      "borderStyle": "solid",
+      "rotation": 271,
+      "width": 50,
+      "height": 50,
+      "cornerRadius": 0
+    }
+  ],
   "groupStyleAnnotations": [],
   "networkNodeAnnotations": [],
   "nodeAnnotations": [
