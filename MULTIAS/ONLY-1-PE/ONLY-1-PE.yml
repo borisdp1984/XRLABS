@@ -11,9 +11,6 @@ topology:
     XR1:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.2
-    XR2:
-      kind: cisco_xrd
-      mgmt-ipv4: 172.28.1.3
     XR3:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.4
@@ -50,10 +47,6 @@ topology:
     XR12:
       kind: cisco_xrd
       mgmt-ipv4: 172.28.1.13
-      startup-delay: 600
-    XR13:
-      kind: cisco_xrd
-      mgmt-ipv4: 172.28.1.14
       startup-delay: 600
     XR14:
       kind: cisco_xrd
