@@ -5,17 +5,34 @@
       "id": "freeShape_1771102728046_b5b614dd",
       "shapeType": "rectangle",
       "position": {
-        "x": 0,
-        "y": 165
+        "x": -127,
+        "y": 85
       },
-      "fillColor": "#ffffff",
-      "fillOpacity": 0,
+      "fillColor": "#e12323",
+      "fillOpacity": 0.49,
       "borderColor": "#646464",
       "borderWidth": 2,
       "borderStyle": "solid",
-      "rotation": 271,
-      "width": 50,
-      "height": 50,
+      "rotation": 270,
+      "width": 152,
+      "height": 248,
+      "cornerRadius": 0
+    },
+    {
+      "id": "freeShape_1771104524503_1",
+      "shapeType": "rectangle",
+      "position": {
+        "x": 171,
+        "y": 84
+      },
+      "fillColor": "#e17f23",
+      "fillOpacity": 0.54,
+      "borderColor": "#646464",
+      "borderWidth": 2,
+      "borderStyle": "solid",
+      "rotation": 270,
+      "width": 152,
+      "height": 248,
       "cornerRadius": 0
     }
   ],
