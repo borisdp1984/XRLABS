@@ -1,0 +1,43 @@
+{
+  "freeTextAnnotations": [],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "XR1",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR2",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR3",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR4",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR5",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR6",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR7",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR8",
+      "interfacePattern": "Gi0-0-0-{n}"
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}

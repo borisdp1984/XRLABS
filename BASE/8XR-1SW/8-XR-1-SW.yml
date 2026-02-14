@@ -1,0 +1,53 @@
+name: 8XR-1SW
+mgmt:
+  network: fixedips
+  ipv4-subnet: 172.28.1.0/24
+
+topology:
+  kinds:
+    ceos:
+      image: harsha258/ceos:4.32.0F
+    cisco_xrd:
+      image: ios-xr/xrd-control-plane:7.11.2
+  nodes:
+    XR1:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.2
+    XR2:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.3
+    XR3:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.4
+    XR4:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.5
+    XR5:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.6
+    XR6:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.7
+      startup-delay: 300
+    XR7:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.8
+      startup-delay: 300
+    XR8:
+      kind: cisco_xrd
+      mgmt-ipv4: 172.28.1.9
+      startup-delay: 300
+    SW:
+      kind: ceos
+      mgmt-ipv4: 172.28.1.20
+      
+  links:
+    - endpoints: ["XR1:Gi0-0-0-0","SW:eth1"]
+    - endpoints: ["XR2:Gi0-0-0-0","SW:eth2"]
+    - endpoints: ["XR3:Gi0-0-0-0","SW:eth3"]
+    - endpoints: ["XR4:Gi0-0-0-0","SW:eth4"]
+    - endpoints: ["XR5:Gi0-0-0-0","SW:eth5"]
+    - endpoints: ["XR6:Gi0-0-0-0","SW:eth6"]
+    - endpoints: ["XR7:Gi0-0-0-0","SW:eth7"]
+    - endpoints: ["XR8:Gi0-0-0-0","SW:eth8"]
+    

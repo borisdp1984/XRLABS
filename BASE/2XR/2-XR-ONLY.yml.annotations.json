@@ -1,0 +1,19 @@
+{
+  "freeTextAnnotations": [],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "XR1",
+      "interfacePattern": "Gi0-0-0-{n}"
+    },
+    {
+      "id": "XR2",
+      "interfacePattern": "Gi0-0-0-{n}"
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}
